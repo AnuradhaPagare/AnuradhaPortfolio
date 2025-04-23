@@ -1,0 +1,60 @@
+.about-section {
+    position: relative;
+    padding: 80px 20px;
+    background-color: #028090;
+    overflow: hidden;
+    color: white;
+  }
+  
+  .overlay {
+    position: absolute;
+    inset: 0;
+    backdrop-filter: blur(8px);
+    background-color: rgba(0, 168, 150, 0.6);
+    z-index: 0;
+  }
+  
+  .about-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    z-index: 1;
+    max-width: 1200px;
+    margin: auto;
+    flex-wrap: wrap;
+  }
+  
+  .about-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .profile-photo {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid #02C39A;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+  }
+  
+  .about-content {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .about-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #F0F3BD;
+  }
+  
+  .about-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  

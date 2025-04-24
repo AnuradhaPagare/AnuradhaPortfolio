@@ -14,9 +14,14 @@ const Skills = () => {
             <div className="skill-card">HTML</div>
             <div className="skill-card">CSS</div>
             <div className="skill-card">JavaScript</div>
-            <div className="skill-card">React</div>
+            <div className="skill-card">ReactJS</div>
             <div className="skill-card">Bootstrap</div>
             <div className="skill-card">Tailwind CSS</div>
+            <div className="skill-card">MySQL</div>
+            <div className="skill-card">PostgreSQL</div>
+            <div className="skill-card">JDBS Servlet</div>
+            <div className="skill-card">MongoDB</div>
+            <div className="skill-card">NodeJS</div>
           </div>
         </div>
 
@@ -24,12 +29,21 @@ const Skills = () => {
         <div className="skills-category">
           <h3 className="category-title">Data Science</h3>
           <div className="skills-grid">
-            <div className="skill-card">Python</div>
+          <div className="skill-card">NumPy</div>
             <div className="skill-card">Pandas</div>
-            <div className="skill-card">NumPy</div>
             <div className="skill-card">Matplotlib</div>
-            <div className="skill-card">Scikit-learn</div>
-            <div className="skill-card">SQL</div>
+            <div className="skill-card">Seaborn</div>
+            <div className="skill-card">Scikit-Learn</div>
+            <div className="skill-card">TensorFlow</div>
+            <div className="skill-card">NLTK (NLP Analysis)</div>
+            <div className="skill-card">Data Science</div>
+            <div className="skill-card">Data Visualization</div>
+            <div className="skill-card">EDA (Exploratory Data Analysis)</div>
+            <div className="skill-card">Data Preprocessing</div>
+            <div className="skill-card">Statistics</div>
+            <div className="skill-card">Reinforcement Learning</div>
+            <div className="skill-card">Machine Learning</div>
+            <div className="skill-card">Data-Driven Decision-Making</div>
           </div>
         </div>
       </div>

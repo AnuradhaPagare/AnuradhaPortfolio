@@ -28,14 +28,22 @@
   }
   
   .skill-card {
-    background-color: #00A896;
-    padding: 15px;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 8px;
     border-radius: 12px;
-    font-size: 1.1rem;
+    background-color: #00A896;;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
     font-weight: 500;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-    transition: transform 0.3s ease, background 0.3s ease;
   }
+  
+  .skill-card.highlight {
+    background-color: #06811f;
+    border: 2px solid #ffc107;
+    transform: scale(1.05);
+  }
+  
   
   .skill-card:hover {
     transform: scale(1.05);

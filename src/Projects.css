@@ -21,14 +21,22 @@
     margin-bottom: 50px;
   }
   
-  .project-card {
-    background: #02C39A;
-    border-radius: 15px;
-    padding: 20px;
-    font-size: 1.1rem;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
-  }
+  /* Projects.css */
+.project-card {
+  background: #02C39A;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 12px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.project-card.highlight {
+  background-color: #06811f;
+  border: 2px solid #ffc107;
+  transform: scale(1.05);
+}
+
   
   .project-card:hover {
     transform: translateY(-5px);
